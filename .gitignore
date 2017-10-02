@@ -1,0 +1,5 @@
+# executables
+*.o
+
+# IDE
+*.xc*

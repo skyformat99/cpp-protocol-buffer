@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+package RFQ;
+
+message ProductRequest {
+    optional int32 rfq_id = 1;
+    optional int32 account_id = 2;
+    optional int32 product_number = 3;
+    optional string product_category = 4;
+    optional int32 quantity = 5;
+}
+
+message ProductResponse {
+    optional float unit_price = 1;
+    optional string price_validation_period = 2;
+}
