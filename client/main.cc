@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
         cout << "========================================================================================\n";
         
         if(response.unit_price() == 0) {
-            cout << response.price_validation_period();
+            cout << response.price_validation_period() << "\n\n";
         } else {
             cout << "Unit Price\n"
                  << "$" << response.unit_price() << "\n"
